@@ -70,8 +70,8 @@ parser.add_argument('--distributed',    type=lambda x:bool(distutils.util.strtob
 parser.add_argument('--mixedprec',      type=lambda x:bool(distutils.util.strtobool(x)),  default=True,  help='Enable mixed precision training')
 
 ## Load and save
-parser.add_argument("--av_pretrain_path", type=str, default=None, help="audio visual encoder pretrained model path")
-parser.add_argument("--text_pretrain_path", type=str, default=None, help="text decoder pretrained model path")
+parser.add_argument("--av_pretrain_path", type=str, default='pretrained_weights/cav-mae-scale++.pth', help="audio visual encoder pretrained model path")
+parser.add_argument("--text_pretrain_path", type=str, default='pretrained_weights/model_git_base.pt', help="text decoder pretrained model path")
 parser.add_argument('--save_path', type=str, default=None, help='Path for model and logs')
 parser.add_argument('--model_save_freq', type=int, default=2, help='Frequency of saving model weight')
 parser.add_argument("--pretrained_model", type=str, default=None, help="pretrained model path")
