@@ -4,6 +4,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Python](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-311/)
 [![Pytorch](https://img.shields.io/badge/Pytorch-1.12.1-red.svg)](https://pytorch.org/get-started/previous-versions/#v21)
+[![DOI](https://zenodo.org/badge/811503830.svg)](https://zenodo.org/doi/10.5281/zenodo.12737968)
 
 This repository contains the source code of our paper [AVCap: Leveraging Audio-Visual Features as Text Tokens for Captioning](https://arxiv.org/abs/2407.07801) (Interspeech 2024). This code has been developed by referencing three repositories: [V-ACT](https://github.com/liuxubo717/V-ACT), [GiT](https://github.com/microsoft/GenerativeImage2Text), and [CAV-MAE](https://github.com/YuanGongND/cav-mae). Special thanks to the authors of these excellent previous works.
 
