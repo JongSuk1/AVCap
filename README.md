@@ -73,3 +73,5 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -u -W ignore run_avcap.py \
     --no_wandb
 ```
 If you wish to use a pretrained audio-visual encoder, you must set the modality-specific depth appropriate for that model. For the pretrained text decoder, you can download and use the `git_base`, `git_large`, and `git_large_r` models.
+
+You can download our model [here](https://drive.google.com/file/d/1X3n1JlMedssbPawHSqGpAfiL7rWkChIB/view?usp=sharing). Note that this model is trained with 8 frames of visual input.
